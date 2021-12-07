@@ -1,7 +1,13 @@
 FROM node:14.17.3
-COPY . /src
-WORKDIR /src
+
+WORKDIR usr/src/ProjetoStreaming/streaming-auth
+
 COPY package*.json ./
+
 RUN npm install
+
+COPY . .
+
 EXPOSE 3030
-ENTRYPOINT ["node", "./index.js"]
+
+CMD [ "node","./index.js"] 
