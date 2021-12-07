@@ -2,7 +2,7 @@ FROM node:14.17.3
 
 WORKDIR usr/src/ProjetoStreaming/streaming-db
 
-COPY package*.json ./
+COPY package-lock*.json ./
 
 RUN npm install
 
