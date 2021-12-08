@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <h1>Home Projeto-Streaming</h1>
-    <img alt="Vue logo" src="../assets/logo.png">
+    <h1>Home Projeto Streaming</h1>
+    <img alt="Vue logo" src="../assets/LogoStreaming.png">
   </div>
 </template>
 

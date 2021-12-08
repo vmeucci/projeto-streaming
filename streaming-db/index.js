@@ -20,7 +20,6 @@ app.use("", routesEnderecos);
 app.use(cors());
 
 
-
 app.listen(8080, (request, response) => {
     console.log("Server online!");
 });
